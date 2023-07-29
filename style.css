@@ -30,3 +30,7 @@ a {
     line-height: 30px;
     color: #7D7987;
 }
+
+.about_photo {
+    border-radius: 10px;
+}
