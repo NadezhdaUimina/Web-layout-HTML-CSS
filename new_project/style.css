@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    width: 1920px
+}
+
+.header__logo__img {
+    padding-top: 40px;
+}
+
+.header__text {
+    padding-top: 45px;
+}
+
+.header__menu{
+    padding-top: 51px;
+}
+
+.top__title {
+    padding-top: 96px;
+}
+
+.top__text {
+    padding-top: 17px;
+    padding-bottom: 37px;
+}
+
+.button__text {
+    padding-bottom: 178 px;
+}
+
+.top_img {
+    padding-top: 94.71px;
+    padding-bottom: 162.45px;
+
+}
+
+.logo {
+    width: 1920px;
+    padding-top: 97px;
+}
+
