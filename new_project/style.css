@@ -7,13 +7,14 @@ a {
     text-decoration: none;
 }
 
-.center{
+/* .center{
     padding-left: calc(50% - 960px);
     padding-right: calc(50% - 960px);
-}
-
-/* .top {
-    width: 1920px
+} */
+/* 
+.top {
+    width: 1920px;
+    padding-left: 373px;
 } */
 
 
@@ -32,6 +33,7 @@ a {
 
 .header__logo__img {
     padding-top: 40px;
+
 }
 
 .header__text {
@@ -40,6 +42,31 @@ a {
 
 .header__menu{
     padding-top: 51px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.link__home {
+    color: #F25822;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link {
+    color: #000;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .top__content {
@@ -52,25 +79,72 @@ a {
     gap: 40px;
 }
 
-.top__title {
+.title {
     width: 522px;
     padding-top: 96px;
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.top__text {
+.text {
     width: 466px;
     padding-top: 17px;
     padding-bottom: 37px;
+    color: #888;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
+.button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: left;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 72px;
+}
+.button_but {
+    color: #FFF;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+
+
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+
+
+
+}
 .button__text {
     padding-bottom: 178 px;
+    color: #AAA;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .top_img {
     padding-top: 94.71px;
     padding-bottom: 162.45px;
-
 }
 
 .logo {
